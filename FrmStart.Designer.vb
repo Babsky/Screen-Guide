@@ -26,6 +26,7 @@ Partial Class FrmStart
 		Me.CboColour = New System.Windows.Forms.ComboBox()
 		Me.LblColour = New System.Windows.Forms.Label()
 		Me.BtnClose = New System.Windows.Forms.Button()
+		Me.BtnAbout = New System.Windows.Forms.Button()
 		Me.SuspendLayout()
 		'
 		'CboColour
@@ -53,8 +54,17 @@ Partial Class FrmStart
 		Me.BtnClose.Name = "BtnClose"
 		Me.BtnClose.Size = New System.Drawing.Size(75, 23)
 		Me.BtnClose.TabIndex = 2
-		Me.BtnClose.Text = "Button1"
+		Me.BtnClose.Text = "Close"
 		Me.BtnClose.UseVisualStyleBackColor = True
+		'
+		'BtnAbout
+		'
+		Me.BtnAbout.Location = New System.Drawing.Point(15, 84)
+		Me.BtnAbout.Name = "BtnAbout"
+		Me.BtnAbout.Size = New System.Drawing.Size(75, 23)
+		Me.BtnAbout.TabIndex = 3
+		Me.BtnAbout.Text = "About"
+		Me.BtnAbout.UseVisualStyleBackColor = True
 		'
 		'FrmStart
 		'
@@ -62,6 +72,7 @@ Partial Class FrmStart
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.BackColor = System.Drawing.SystemColors.Control
 		Me.ClientSize = New System.Drawing.Size(319, 123)
+		Me.Controls.Add(Me.BtnAbout)
 		Me.Controls.Add(Me.BtnClose)
 		Me.Controls.Add(Me.LblColour)
 		Me.Controls.Add(Me.CboColour)
@@ -79,4 +90,5 @@ Partial Class FrmStart
 	Friend WithEvents CboColour As ComboBox
 	Friend WithEvents LblColour As Label
 	Friend WithEvents BtnClose As Button
+	Friend WithEvents BtnAbout As Button
 End Class

@@ -6,6 +6,10 @@
 		' Set TransparencyKey to backcolour to make the guide transparent
 		' The colour comes form the background image
 		Me.TransparencyKey = Me.BackColor
+
+		' Make the form non selectable - supposed to stop the form getting focus but doesn't work
+		Me.SetStyle(ControlStyles.Selectable, False)
+
 	End Sub
 
 

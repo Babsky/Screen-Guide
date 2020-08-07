@@ -117,20 +117,48 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="red" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LogoPictureBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAxAAAAEYCAYAAADMNRC5AAABgmlDQ1BJQ0MgcHJvZmlsZQAAKM+VkTlI
+        A0EYhT+jEpGIhSlELbaIVgZERSwliiIoSBLBq3B3Y6KQXcNugo2lYCtYeDRehY21tha2giB4gFhZWina
+        SFj/2QgJQgQHhvl4M+8x8wYCh1nTcut6wLLzTnwsps3MzmnBF4K0E6KfTt10c5OJ0SRVx+cdNWq9jaos
+        /jeaUkuuCTWa8JCZc/LCi8IDa/mc4l3hsLmsp4TPhLsduaDwg9KNEr8qzvgcUJlhJxkfFg4La5kKNirY
+        XHYs4X7hSMqyJT8wU+KU4nXFVrZg/txTvTC0ZE8nlC6zgzHGmWQKDYMCK2TJE5XVFsUlLvuxKv423z8l
+        LkNcK5jiGGEVC933o/7gd7duuq+3lBSKQf2z5713QnAbilue93XkecVjqH2CS7vsXz2EwQ/Rt8pa5ACa
+        N+D8qqwZO3CxCa2POd3RfalWZiCdhrdT+aZZaLmBxvlSbz/7nNxDUrqauIa9fejKSPZClXc3VPb25xm/
+        P2Lf241y0ZJ2W0EAAAAJcEhZcwAALiMAAC4jAXilP3YAAAAHdElNRQfkBxsMNhzgPsvkAAAAGXRFWHRD
+        b21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAABZhJREFUeF7t1zEBACAMwLC5nB1U84KFCsgREZnd
+        fQAAAIVAAAAAmUAAAACZQAAAAJlAAAAAmUAAAACZQAAAAJlAAAAAmUAAAACZQAAAAJlAAAAAmUAAAACZ
+        QAAAAJlAAAAAmUAAAACZQAAAAJlAAAAAmUAAAACZQAAAAJlAAAAAmUAAAACZQAAAAJlAAAAAmUAAAACZ
+        QAAAAJlAAAAAmUAAAACZQAAAAJlAAAAAmUAAAACZQAAAAJlAAAAAmUAAAADZvDsHAACgEAgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAAIBMIAAAgEwgAACATCAAA
+        IBMIAAAgEwgAACATCAAAIBMIAAAgmvMBFDrEQz4FpJYAAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="orange1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TextBoxDescription.Text" xml:space="preserve">
+    <value>Description :
+
+(At runtime, the labels' text will be replaced with the application's assembly information.
+Customize the application's assembly information in the Application pane of Project Designer.)</value>
   </data>
 </root>

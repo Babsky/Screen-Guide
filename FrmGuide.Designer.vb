@@ -39,7 +39,7 @@ Partial Class FrmGuide
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.BackColor = System.Drawing.SystemColors.Control
-		Me.BackgroundImage = Global.Screen_Guide.My.Resources.Resources.orange
+		Me.BackgroundImage = Global.Screen_Guide.My.Resources.Resources.grey
 		Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
 		Me.ClientSize = New System.Drawing.Size(800, 137)
 		Me.ControlBox = False
@@ -49,6 +49,7 @@ Partial Class FrmGuide
 		Me.MinimizeBox = False
 		Me.Name = "FrmGuide"
 		Me.Opacity = 0.5R
+		Me.ShowIcon = False
 		Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
 		Me.TopMost = True
 		Me.ResumeLayout(False)

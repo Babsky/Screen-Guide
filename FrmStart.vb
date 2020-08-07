@@ -6,8 +6,10 @@
 		CboColour.Items.Add("Yellow")
 		CboColour.Items.Add("Orange")
 		CboColour.Items.Add("Red")
+		CboColour.Items.Add("Grey")
 		CboColour.SelectedIndex = 0
 
+		BtnAbout.Text = "About"
 		BtnClose.Text = "Close"
 	End Sub
 
@@ -27,6 +29,9 @@
 			ElseIf CboColour.SelectedIndex = 3 Then
 				'Red
 				FrmGuide.BackgroundImage = Screen_Guide.My.Resources.Resources.red
+			ElseIf CboColour.SelectedIndex = 4 Then
+				'Grey
+				FrmGuide.BackgroundImage = Screen_Guide.My.Resources.Resources.grey
 			End If
 
 			FrmGuide.Show()
@@ -37,5 +42,9 @@
 
 	Private Sub BtnClose_Click(sender As Object, e As EventArgs) Handles BtnClose.Click
 		Me.Close()
+	End Sub
+
+	Private Sub BtnAbout_Click(sender As Object, e As EventArgs) Handles BtnAbout.Click
+		AbtScreenGuide.Show()
 	End Sub
 End Class

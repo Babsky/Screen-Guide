@@ -47,6 +47,9 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ScreenGuideIcon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -73,6 +76,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbtScreenGuide.Designer.vb">
+      <DependentUpon>AbtScreenGuide.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AbtScreenGuide.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmStart.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +99,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -103,6 +113,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AbtScreenGuide.resx">
+      <DependentUpon>AbtScreenGuide.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmGuide.resx">
       <DependentUpon>FrmGuide.vb</DependentUpon>
     </EmbeddedResource>
@@ -136,6 +149,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grey.png" />
+    <Content Include="ScreenGuideIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
